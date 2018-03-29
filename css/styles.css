@@ -1,0 +1,146 @@
+* {
+      min-height: 20px;
+      padding: 0 auto;
+      text-align: center;
+  }
+  
+  /* NAV BAR*/
+  
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  color: white
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+}
+a:hover{
+  color: blue;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/*HOME PAGE*/
+
+.hello-class{
+  color: maroon
+
+}
+.hello-id{
+  width: 90%;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 90px;
+  text-align: center;
+  font-size: 7em
+}
+
+.profile-image{
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.profile-image:hover{
+  transform: scale(1.2) rotate(10deg);
+}
+
+/*FONT STYLES*/
+
+h1{
+   font-family: 'Montez', cursive;
+   font-weight: 400;
+   color: #260000;
+   text-shadow: 2px 2px 15px #1D272B;
+}
+
+h2{
+    font-family: 'Sacramento', cursive;
+}
+
+h3{
+    font-family: 'Tangerine', cursive;
+}
+
+p{
+    font-family: 'Lilita One', cursive;
+    font-weight: 400;
+    text-shadow: 5px 5px 20px #1D272B;
+    color: #260000
+}
+
+
+/*Contact Page*/
+.flex {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+}
+
+.card:hover {
+    border-color: #ff99ff;
+}
+
+.email{
+    color: black
+}
+.map{
+    float: right;
+    padding: 30px;
+    
+}
+
+/*ABOUT PAGE*/
+.content-1{
+    margin: 10px;
+}
+
+.left{
+    display: inline-block;
+}
+.left .content-img{
+    height: 300px;
+}
+.right p{
+    margin: 0 10px;
+}
+.right{
+    display: inline-block;
+    width: 70%;
+}
+.content-3 div{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+/*FOOTER*/
+.fa{
+    font-size: 30px;
+    color: lightgrey;
+    text-shadow: 2px 2px 20px #1D272B;
+}
+footer{
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+}
